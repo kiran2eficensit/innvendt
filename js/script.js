@@ -1,45 +1,57 @@
 
-$(function() {
+$(function () {
+  //desktop icons click event
+  $("#assetvision").click(function () {
+    window.location = '../assetvision.html';
+  });
+  $("#earthe5").click(function () {
+    window.location = '../earthe5.html';
+  });
+  $("#smartloto").click(function () {
+    window.location = '../smartloto.html';
+  });
+  //asset tabs 
+  $("#asset_tab_1").click(function () {
+    window.location = '../assetvision.html#feature_1';
+  });
+  $("#asset_tab_2").click(function () {
+    window.location = '../assetvision.html#feature_2';
+  });
+  $("#asset_tab_3").click(function () {
+    window.location = '../assetvision.html#feature_3';
+  });
+  //earthe5 tabs
+  $("#earthe5_tab_1").click(function () {
+    window.location = '../earthe5.html#feature_1';
+  });
+  $("#earthe5_tab_2").click(function () {
+    window.location = '../earthe5.html#feature_2';
+  });
+  $("#earthe5_tab_3").click(function () {
+    window.location = '../earthe5.html#feature_3';
+  });
+  //smartloto tabs
+  $("#smartloto_tab_1").click(function () {
+    window.location = '../smartloto.html#feature_1';
+  });
+  $("#smartloto_tab_2").click(function () {
+    window.location = '../smartloto.html#feature_2';
+  });
+  $("#smartloto_tab_3").click(function () {
+    window.location = '../smartloto.html#feature_3';
+  });
+  //mobile tabs
+  
 
-    $("#Search").click(function(){
-        window.location = '../assetvision.html#feature_1';
-        
-      });
-      $("#onestop").click(function(){
-        window.location = '../assetvision.html#feature_2';
-      });
-      $("#digi_lay").click(function(){
-        window.location = '../assetvision.html#feature_3';
-      });
-      $("#earthe5iiot").click(function(){
-        window.location = '../earthe5.html#feature_1';
-        
-      });
-      $("#earthe5leakage").click(function(){
-        window.location = '../earthe5.html#feature_2';
-      });
-      $("#earthe5earthpit").click(function(){
-        window.location = '../earthe5.html#feature_3';
-      });
-    
-      $("#smartsearch").click(function(){
-        window.location = '../smartloto.html#feature_1';
-        
-      });
-      $("#smartsmart").click(function(){
-        window.location = '../smartloto.html#feature_2';
-      });
-      $("#smartcloud").click(function(){
-        window.location = '../smartloto.html#feature_3';
-      });
-    
- });
- $(document).ready(function(){
-    stylesheet.appendTo("head");
-    $(".dropdown").hover(function(){
-        var dropdownMenu = $(this).children(".dropdown-menu");
-        if(dropdownMenu.is(":visible")){
-            dropdownMenu.parent().toggleClass("open");
-        }
-    });
+});
+$(document).ready(function () {
+  $('#menu').load('../menu/menu.html');
+
+  stylesheet.appendTo("head");
+  $(".dropdown").hover(function () {
+    var dropdownMenu = $(this).children(".dropdown-menu");
+    if (dropdownMenu.is(":visible")) {
+      dropdownMenu.parent().toggleClass("open");
+    }
+  });
 });     

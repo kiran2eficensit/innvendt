@@ -360,16 +360,19 @@ line-height: 45px;
 }
 
 .about-card {
-    padding: 30px;
+    height: 324px;
+    
     box-shadow: 0 4px 60px 0 rgb(0 0 0 / 10%);
     border-radius: 5px;
-    background: url(../images/asset/right_quote.svg) no-repeat;
-    background-position: 98% 7%;
     margin-top: 30px;
     text-align: center;
     border: 1px solid var(--white);
 }
-
+.b{
+    padding: 30px;
+    background: url(../images/asset/right_quote.svg) no-repeat;
+    background-position: 98% 7%;
+}
 .about-card:hover {
     border: 1px solid var(--primary);
     transition: all 0.5s;
@@ -588,11 +591,11 @@ line-height: 34px;
 }
 .prev-c{
     position: absolute;
-    bottom: 4.7%;
     left: 41%;
 }
 .next-c{
-    margin-left: 100px;
+    position: absolute;
+    right: 37.5%;
 }
 /* EPCM end */
 
@@ -600,25 +603,28 @@ line-height: 34px;
     padding: 20px;
   }
   .slick-dots {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0rem 0;
-    list-style-type: none;
-  }
-  .slick-dots li {
-    border-radius: 50%;
-    background-color: rgb(255, 255, 255);
-  }
-  .slick-dots button {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 1rem 0;
+  list-style-type: none;
+}
+.slick-dots li {
+  margin: 0 0.25rem;
+}
+.slick-dots button {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  padding: 0;
+  border: none;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  text-indent: -9999px;
+}
 
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
- 
-  }
-  .slick-dots li button:before {
-    color: #ffffff !important;
+.slick-dots li.slick-active button {
+  background-color: #fff !important;
 }
   
   /* slick slider end */
@@ -639,12 +645,28 @@ line-height: 34px;
         display: flex;
     }
 }
-@media only screen and (max-width: 767px){
+
+@media only screen and (max-width: 769px){
+    .next-c{
+        right: 30.5% !important;
+    }
     .news{
         padding: 80px 0;
         height: 100%;
         background: url(../images/EARTHE5/summary.svg) no-repeat;
         background-size: 10 100%;
+    }
+}
+@media only screen and (max-width: 376px){
+    .slick-dots {
+        left: 30% !important;
+    }
+    .prev-c {
+        position: absolute;
+        left: 23%;
+    }
+    .next-c {
+        right: 20.5% !important;
     }
 }
 @media only screen and (max-width: 450px) {
@@ -654,6 +676,15 @@ line-height: 34px;
     
 }
 @media only screen and (max-width: 1024px) {
+    .next-c{
+        right: 36.5%;
+    }
+    .news{
+        padding: 80px 0;
+        height: 100%;
+        background: url(../images/EARTHE5/summary.svg) no-repeat;
+        background-size: 10 100%;
+    }
     .earth hr {
         display: block;
     }

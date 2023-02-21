@@ -86,278 +86,173 @@
           </nav>
         </header> -->
 
-        <header class="">
-          <!-- site-navbar start -->
-          <div class="navbar-area">
-            <div class="container">
-              <nav class="site-navbar">
-                <!-- site logo -->
-                <a href="index.html"><img src="images/logoFull.svg" alt="logo" /></a>
-  
-                <!-- site menu/nav -->
-                <ul class="navBar">
-                  <li>
-                    <a class="nav-link" href="#cegma"
-                      ><span class="nav-active">CEGMA</span></a
-                    >
-                  </li>
-                  <div id="primary_nav_wrap">
-                    <ul>
-                      <li>
-                        <a href="#">Products</a>
-                        <ul>
-                          <li class="dir">
-                            <div class="">
-                              <div class="row mega-menu">
-                                <div class="col-lg-5 col-md-5 mytab-left">
-                                  <div
-                                    id="myTab"
-                                    class="nav nav-pills flex-column"
-                                  >
-                                    <a
-                                      href="#category_tab1"
-                                      data-bs-toggle="pill"
-                                      class="active nav-link"
-                                    >
-                                      <h4>Asset Vision</h4>
-                                      <small
-                                        >A GIS-based platform for managing and
-                                        monitoring electrical assets</small
-                                      >
-                                    </a>
-                                    <a
-                                      href="#category_tab2"
-                                      data-bs-toggle="pill"
-                                      class="nav-link"
-                                    >
-                                      <h4>Earth E5</h4>
-                                      <small
-                                        >A cutting-edge IoT-based sensor for
-                                         earth pit monitoring</small
-                                      ></a
-                                    >
-                                    <a
-                                      href="#category_tab3"
-                                      data-bs-toggle="pill"
-                                      class="nav-link"
-                                    >
-                                      <h4>Smart LOTO</h4>
-                                      <small
-                                        >Next generation solution for electrical 
-                                        lockout and tagout procedures</small
-                                      ></a
-                                    >
-                                  </div>
-                                </div>
-                                <div class="col-lg-7 col-md-5 tab-content">
-                                  <article
-                                    class="tab-pane fade show active"
-                                    id="category_tab1"
-                                  >
-                                    <div class="tab-flex" id="Search">
-                                      <img
-                                        src="images/search-tab.svg"
-                                        alt="search-tab"
-                                      />
-                                      <a
-                                        >Searchable GIS Dashboard for Electrical
-                                        Infrastructure</a
-                                      >
-                                    </div>
-                                    <div class="tab-flex" id="onestop">
-                                      <img
-                                        src="images/stop-icon.svg"
-                                        alt="search-tab"
-                                      />
-                                      <a
-                                        >One-stop Dashboard for IoT based
-                                        Sensor-based Monitoring of all
-                                        Electrical Assets</a
-                                      >
-                                    </div>
-                                    <div class="tab-flex" id="digi_lay">
-                                      <img
-                                        src="images/gps.svg"
-                                        alt="search-tab"
-                                      />
-                                      <a
-                                        >Digital Layout Map for the Plant's
-                                        entire Electrical Infra</a
-                                      >
-                                    </div>
-                                  </article>
-                                  <article
-                                    class="tab-pane fade"
-                                    id="category_tab2"
-                                  >
-                                    <div class="tab-flex" id="earthe5iiot">
-                                      <img
-                                        src="images/iot.svg"
-                                        alt="search-tab"
-                                      />
-                                      <a href="#"
-                                        >IoT-based Sensor for Earthing System
-                                        Monitoring</a
-                                      >
-                                    </div>
-                                    <div class="tab-flex" id="earthe5leakage">
-                                      <img
-                                        src="images/lightning.svg"
-                                        alt="search-tab"
-                                      />
-                                      <a href="#">Leakage Voltage Monitoring</a>
-                                    </div>
-                                    <div class="tab-flex" id="earthe5earthpit">
-                                      <img
-                                        src="images/wifi2.svg"
-                                        alt="search-tab"
-                                      />
-                                      <a href="#"
-                                        >Earth Pit Resistance Monitoring via
-                                        DeltaR Algorithm</a
-                                      >
-                                    </div>
-                                  </article>
-                                  <article
-                                    class="tab-pane fade"
-                                    id="category_tab3"
-                                  >
-                                    <div class="tab-flex" id="smartsearch">
-                                      <img
-                                        src="images/lock1.svg"
-                                        alt="search-tab"
-                                      />
-                                      <a href="#"
-                                        >Searchable GIS Dashboard for Electrical
-                                        Infrastructure</a
-                                      >
-                                    </div>
-                                    <div class="tab-flex" id="smartsmart">
-                                      <img
-                                        src="images/lock2.svg"
-                                        alt="search-tab"
-                                      />
-                                      <a href="#"
-                                        >Smart Lockout and Tag out Technology</a
-                                      >
-                                    </div>
-                                    <div class="tab-flex" id="smartcloud">
-                                      <img
-                                        src="images/wifi_icon.svg"
-                                        alt="search-tab"
-                                      />
-                                      <a href="#"
-                                        >Cloud-Based Workflow Software</a
-                                      >
-                                    </div>
-                                  </article>
-                                </div>
-                              </div>
+      <header class="">
+        <!-- site-navbar start -->
+        <div class="navbar-area">
+          <div class="container">
+            <nav class="site-navbar">
+              <!-- site logo -->
+              <a href="index.html"><img src="images/logoFull.svg" alt="logo" /></a>
+
+              <!-- site menu/nav -->
+              <ul class="navBar">
+                <li>
+                  <a class="nav-link" href="#cegma"><span class="nav-active">CEGMA</span></a>
+                </li>
+                <li class="dir">
+                  <div href="#" class="tab-hover">
+                    Products
+
+                    <div id="primary_nav_wrap">
+                      <div class="row">
+                        <div class="col-lg-5">
+                          <div class="tab">
+                            <button class="tablinks" id="assetvision" onmouseover="openCity(event, 'tab1')">
+                              <h4>Asset Vision</h4>
+                              <small>A GIS-based platform for managing and
+                                monitoring electrical assets</small>
+                            </button>
+                            <button class="tablinks" id="earthe5" onmouseover="openCity(event, 'tab2')">
+                              <h4>Earth E5</h4>
+                              <small>A GIS-based platform for managing and
+                                monitoring electrical assets</small>
+                            </button>
+                            <button class="tablinks" id="smartloto" onmouseover="openCity(event, 'tab3')">
+                              <h4>Smart LOTO</h4>
+                              <small>A GIS-based platform for managing and
+                                monitoring electrical assets</small>
+                            </button>
+                          </div>
+                        </div>
+                        <div class="col-lg-7">
+                          <div id="tab1" class="tabcontent">
+                            <div class="tab-flex" id="asset_tab_1">
+                              <img src="images/search-tab.svg" alt="search-tab" />
+                              <a href="/assetvision.html#feature_1">Searchable GIS Dashboard for Electrical
+                                Infrastructure</a>
                             </div>
-                          </li>
-                          <!-- <li class="dir">
-                            <a href="other.html">Other work</a>
-  
-                            <ul>
-                              <li><a href="#">Category 4</a></li>
-                              <li><a href="#">Category 5</a></li>
-                              <li><a href="#">Category 6</a></li>
-                            </ul>
-                          </li> -->
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>
-                  <li class="tab-responsive">
-                    <h5 class="res">
-                      <small href="#">Products</small>
-                      <i class="fa fa-angle-down" aria-hidden="true"></i>
-                    </h5>
-                    <div class="accordion-container">
-                      <div class="set">
-                        <span>
-                          Asset Vision
-                          <i class="fa fa-angle-down"></i>
-                        </span>
-                        <div class="content">
-                          <a href="/assetvision.html#feature_1"
-                            >Searchable GIS Dashboard for Electrical
-                            Infrastructure</a
-                          >
-                          <a href="assetvision.html#feature_2"
-                            >One-stop Dashboard for IoT based Sensor-based
-                            Monitoring of all Electrical Assets</a
-                          >
-                          <a href="assetvision.html#feature_3"
-                            >Digital Layout Map for the Plant's entire
-                            Electrical Infra</a
-                          >
-                        </div>
-                      </div>
-                      <div class="set">
-                        <span>
-                          Earth E5
-                          <i class="fa fa-angle-down"></i>
-                        </span>
-                        <div class="content">
-                          <a href="/earthe5.html#feature_1"
-                            >IoT-based Sensor for Earthing System Monitoring</a
-                          >
-                          <a href="/earthe5.html#feature_2">Leakage Voltage Monitoring</a>
-                          <a href="/earthe5.html#feature_3"
-                            >Earth Pit Resistance Monitoring via DeltaR
-                            Algorithm</a
-                          >
-                        </div>
-                      </div>
-                      <div class="set">
-                        <span>
-                          Smart LOTO
-                          <i class="fa fa-angle-down"></i>
-                        </span>
-                        <div class="content">
-                          <a href="/smartloto.html#feature_1">Smart Padlocks with Unique Identifiers</a>
-                          <a href="/smartloto.html#feature_2">Smart Lockout and Tagout Technology</a>
-                          <a href="/smartloto.html#feature_3">Cloud-Based Workflow Software</a>
+                            <div class="tab-flex" id="asset_tab_2">
+                              <img src="images/stop-icon.svg" alt="search-tab" />
+                              <a href="/assetvision.html#feature_2">One-stop Dashboard for IoT based Sensor-based
+                                Monitoring of all Electrical Assets</a>
+                            </div>
+                            <div class="tab-flex" id="asset_tab_3">
+                              <img src="images/gps.svg" alt="search-tab" />
+                              <a href="/assetvision.html#feature_3">Digital Layout Map for the Plant's entire
+                                Electrical Infra</a>
+                            </div>
+                          </div>
+                          <div id="tab2" class="tabcontent">
+                            <div class="tab-flex" id="earthe5_tab_1">
+                              <img src="images/iot.svg" alt="search-tab" />
+                              <a href="/earthe5.html#feature_1">IoT-based Sensor for Earthing System
+                                Monitoring</a>
+                            </div>
+                            <div class="tab-flex" id="earthe5_tab_2">
+                              <img src="images/lightning.svg" alt="search-tab" />
+                              <a href="/earthe5.html#feature_2">Leakage Voltage Monitoring</a>
+                            </div>
+                            <div class="tab-flex" id="earthe5_tab_3">
+                              <img src="images/wifi2.svg" alt="search-tab" />
+                              <a href="/earthe5.html#feature_3">Earth Pit Resistance Monitoring via DeltaR
+                                Algorithm</a>
+                            </div>
+                          </div>
+
+                          <div id="tab3" class="tabcontent">
+                            <div class="tab-flex" id="smartloto_tab_1">
+                              <img src="images/lock1.svg" alt="search-tab" />
+                              <a href="/smartloto.html#feature_1">Smart Padlocks with Unique Identifiers</a>
+                            </div>
+                            <div class="tab-flex" id="smartloto_tab_2">
+                              <img src="images/lock2.svg" alt="search-tab" />
+                              <a href="/smartloto.html#feature_2">Smart Lockout and Tag out Technology</a>
+                            </div>
+                            <div class="tab-flex" id="smartloto_tab_3">
+                              <img src="images/wifi_icon.svg" alt="search-tab" />
+                              <a href="/smartloto.html#feature_3">Cloud-Based Workflow Software</a>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </li>
-                  <li>
-                    <a class="nav-link" href="#features"
-                      ><span>Features</span></a
-                    >
-                  </li>
-                  <li>
-                    <a class="nav-link" href="#customers"
-                      ><span>Customers</span></a
-                    >
-                  </li>
-                  <li>
-                    <a class="nav-link" href="#news"><span>News </span></a>
-                  </li>
-                  <li>
-                    <a class="nav-link" href="#about"><span>About</span></a>
-                  </li>
-                  <!-- <li>
-                    <a class="nav-link" href="#partners"
-                      ><span>Partners</span></a
-                    >
-                  </li> -->
-                  <li class="nav-item">
-                    <a class="login-in" href="#"><span>LOGIN </span></a>
-                  </li>
-                </ul>
-  
-                <!-- nav-toggler for mobile version only -->
-                <button class="nav-toggler">
-                  <span></span>
-                </button>
-              </nav>
-            </div>
+                  </div>
+                </li>
+
+                <li class="tab-responsive">
+                  <h5 class="res">
+                    <small href="#">Products</small>
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                  </h5>
+                  <div class="accordion-container">
+                    <div class="set">
+                      <span id="assetvision">
+                        Asset Vision
+                        <i class="fa fa-angle-down"></i>
+                      </span>
+                      <div class="content">
+                        <a href="/assetvision.html#feature_1">Searchable GIS Dashboard for Electrical
+                          Infrastructure</a>
+                        <a href="/assetvision.html#feature_2">One-stop Dashboard for IoT based Sensor-based
+                          Monitoring of all Electrical Assets</a>
+                        <a href="/assetvision.html#feature_3">Digital Layout Map for the Plant's entire
+                          Electrical Infra</a>
+                      </div>
+                    </div>
+                    <div class="set">
+                      <span>
+                        Earth E5
+                        <i class="fa fa-angle-down"></i>
+                      </span>
+                      <div class="content">
+                        <a href="/earthe5.html#feature_1">IoT-based Sensor for Earthing System Monitoring</a>
+                        <a href="/earthe5.html#feature_2">Leakage Voltage Monitoring</a>
+                        <a href="/earthe5.html#feature_3">Earth Pit Resistance Monitoring via DeltaR
+                          Algorithm</a>
+                      </div>
+                    </div>
+                    <div class="set">
+                      <span>
+                        Smart LOTO
+                        <i class="fa fa-angle-down"></i>
+                      </span>
+                      <div class="content">
+                        <a href="/smartloto.html#feature_1">Smart Padlocks with Unique Identifiers</a>
+                        <a href="/smartloto.html#feature_2">Smart Lockout and Tagout Technology</a>
+                        <a href="/smartloto.html#feature_3">Cloud-Based Workflow Software</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a class="nav-link" href="#features"><span>Features</span></a>
+                </li>
+                <li>
+                  <a class="nav-link" href="#customers"><span>Customers</span></a>
+                </li>
+                <li>
+                  <a class="nav-link" href="#news"><span>News </span></a>
+                </li>
+                <li>
+                  <a class="nav-link" href="#about"><span>About</span></a>
+                </li>
+                <!-- <li>
+                  <a class="nav-link" href="#partners"><span>Partners</span></a>
+                </li> -->
+                <li class="nav-item">
+                  <a class="login-in" href="#"><span>LOGIN </span></a>
+                </li>
+              </ul>
+
+              <!-- nav-toggler for mobile version only -->
+              <button class="nav-toggler">
+                <span></span>
+              </button>
+            </nav>
           </div>
-          <!-- navbar-area end -->
-        </header>
+        </div>
+        <!-- navbar-area end -->
+      </header>
     </div>
     <!-- banner start -->
     <div class="home-banner" id="cegma">
@@ -400,7 +295,7 @@
                 </figure>
                 <h4>Forecast Failures and Reduce Downtime</h4>
               </div>
-  
+
               <p>
                 With real time data rich dashboards, predict failures even
                 before they happen. Increase your ROI by reducing unplanned
@@ -416,7 +311,7 @@
                 </figure>
                 <h4>Operational <br />Intelligence</h4>
               </div>
-  
+
               <p>
                 Powered by cross customer insights and best practices, enable
                 your teams with the right sensors and software that propels
@@ -432,7 +327,7 @@
                 </figure>
                 <h4>Reduce Maintenance Costs and Increase Productivity</h4>
               </div>
-  
+
               <p>
                 Move from reactive to a pro active maintenance paradigm and
                 save significant costs. Increase productivity of teams through
@@ -541,7 +436,7 @@
               </a>
             </figure>
           </li>
-  
+
           <li class="our-customer-card">
             <figure>
               <a href="https://www.iocl.com/" target="_blank">
@@ -549,7 +444,7 @@
               </a>
             </figure>
           </li>
-  
+
           <li class="our-customer-card">
             <figure>
               <a href="https://www.tatasteel.com/" target="_blank">
@@ -571,7 +466,7 @@
               </a>
             </figure>
           </li>
-  
+
           <li class="our-customer-card">
             <figure>
               <a href="https://www.adani.com/" target="_blank">
@@ -579,7 +474,7 @@
               </a>
             </figure>
           </li>
-  
+
           <li class="our-customer-card">
             <figure>
               <a href="http://www.mylan.com/" target="_blank">
@@ -1048,6 +943,21 @@
   <script src="js/smooothscroll.js"></script>
   <script src="js/script.js"></script>
   <script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+  </script>
+  <script>
     $(document).ready(function () {
       $(".res").click(function () {
         $(".accordion-container").toggle("show");
@@ -1056,6 +966,7 @@
   </script>
   <script>
     new WOW().init();
+    $(document).foundation();
   </script>
   <script>
     $(document).ready(function () {
@@ -1082,52 +993,7 @@
       });
     });
   </script>
-  <!-- nav bar -->
-  <!-- nav bar end -->
 
-  <script>
-    $(document).ready(function () {
-      $(".navBar li a").click(function () {
-        $(".navBar").collapse("hide");
-      });
-    });
-
-    document.querySelectorAll("#myTab a").forEach(function (everyitem) {
-      var tabTrigger = new bootstrap.Tab(everyitem);
-      everyitem.addEventListener("mouseenter", function () {
-        tabTrigger.show();
-      });
-    });
-  </script>
-  <script>
-    $(document).ready(function () {
-      $(".menu_icon").click(function () {
-        $(".nav_items").slideToggle("1000");
-        $(".menu_icon").toggleClass("active_menu");
-      });
-    });
-
-    $(document).ready(function () {
-      $(".nav-link span").click(function () {
-        $(".nav-link span").removeClass("nav-active");
-        $(this).addClass("nav-active");
-      });
-    });
-  </script>
-  <script type="text/javascript">
-    $(window).on("scroll", function () {
-      if ($(window).scrollTop()) {
-        $(".nav-top").addClass("nav-sticky");
-      } else {
-        $(".nav-top").removeClass("nav-sticky");
-      }
-    });
-  </script>
-  <script>
-    $(function () {
-      $("#main_navbar").bootnavbar();
-    });
-  </script>
   <!-- nav bar -->
   <script>
     // define all UI variable
@@ -1234,6 +1100,7 @@
       });
     });
   </script>
+  
 </body>
 
 </html>

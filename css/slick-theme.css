@@ -114,6 +114,7 @@
 }
 
 /* Dots */
+
 .slick-dotted.slick-slider
 {
     margin-bottom: 30px;
@@ -121,8 +122,9 @@
 
 .slick-dots
 {
+    left: 45%;
     position: absolute;
-    bottom: -20px;
+    bottom: -52px;
 
     display: flex;
 
@@ -130,7 +132,7 @@
     margin: 0;
 
     list-style: none;
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
 }
 .slick-dots li

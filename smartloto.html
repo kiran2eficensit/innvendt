@@ -21,6 +21,8 @@
   <link rel="stylesheet" href="css/responsive.css" />
   <link rel="stylesheet" href="css/dropdown.css">
   <link rel="stylesheet" href="css/smartloto.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="css/slick.css">
 </head>
 
 <body>
@@ -86,413 +88,316 @@
           </nav>
         </header> -->
 
-        <header class="">
-          <!-- site-navbar start -->
-          <div class="navbar-area">
-            <div class="container">
-              <nav class="site-navbar">
-                <!-- site logo -->
-                <a href="index.html"><img src="images/logoFull.svg" alt="logo" /></a>
-  
-                <!-- site menu/nav -->
-                <ul class="navBar">
-                  <li>
-                    <a class="nav-link" href="#cegma"
-                      ><span class="nav-active">CEGMA</span></a
-                    >
-                  </li>
-                  <div id="primary_nav_wrap">
-                    <ul>
-                      <li>
-                        <a href="#">Products</a>
-                        <ul>
-                          <li class="dir">
-                            <div class="">
-                              <div class="row mega-menu">
-                                <div class="col-lg-5 col-md-5 mytab-left">
-                                  <div
-                                    id="myTab"
-                                    class="nav nav-pills flex-column"
-                                  >
-                                    <a
-                                      href="#category_tab1"
-                                      data-bs-toggle="pill"
-                                      class="active nav-link"
-                                    >
-                                      <h4>Asset Vision</h4>
-                                      <small
-                                        >A GIS-based platform for managing and
-                                        monitoring electrical assets</small
-                                      >
-                                    </a>
-                                    <a
-                                      href="#category_tab2"
-                                      data-bs-toggle="pill"
-                                      class="nav-link"
-                                    >
-                                      <h4>Earth E5</h4>
-                                      <small
-                                        >A cutting-edge IoT-based sensor for earth pit monitoring</small
-                                      ></a
-                                    >
-                                    <a
-                                      href="#category_tab3"
-                                      data-bs-toggle="pill"
-                                      class="nav-link"
-                                    >
-                                      <h4>Smart LOTO</h4>
-                                      <small
-                                        >Next generation solution for electrical lockout and tagout procedures</small
-                                      ></a
-                                    >
-                                  </div>
-                                </div>
-                                <div class="col-lg-7 col-md-5 tab-content">
-                                  <article
-                                    class="tab-pane fade show active"
-                                    id="category_tab1"
-                                  >
-                                    <div class="tab-flex" id="Search">
-                                      <img
-                                        src="images/search-tab.svg"
-                                        alt="search-tab"
-                                      />
-                                      <a
-                                        >Searchable GIS Dashboard for Electrical
-                                        Infrastructure</a
-                                      >
-                                    </div>
-                                    <div class="tab-flex" id="onestop">
-                                      <img
-                                        src="images/stop-icon.svg"
-                                        alt="search-tab"
-                                      />
-                                      <a
-                                        >One-stop Dashboard for IoT based
-                                        Sensor-based Monitoring of all
-                                        Electrical Assets</a
-                                      >
-                                    </div>
-                                    <div class="tab-flex" id="digi_lay">
-                                      <img
-                                        src="images/gps.svg"
-                                        alt="search-tab"
-                                      />
-                                      <a
-                                        >Digital Layout Map for the Plant's
-                                        entire Electrical Infra</a
-                                      >
-                                    </div>
-                                  </article>
-                                  <article
-                                    class="tab-pane fade"
-                                    id="category_tab2"
-                                  >
-                                    <div class="tab-flex" id="earthe5iiot">
-                                      <img
-                                        src="images/iot.svg"
-                                        alt="search-tab"
-                                      />
-                                      <a href="#"
-                                        >IoT-based Sensor for Earthing System
-                                        Monitoring</a
-                                      >
-                                    </div>
-                                    <div class="tab-flex" id="earthe5leakage">
-                                      <img
-                                        src="images/lightning.svg"
-                                        alt="search-tab"
-                                      />
-                                      <a href="#">Leakage Voltage Monitoring</a>
-                                    </div>
-                                    <div class="tab-flex" id="earthe5earthpit">
-                                      <img
-                                        src="images/wifi2.svg"
-                                        alt="search-tab"
-                                      />
-                                      <a href="#"
-                                        >Earth Pit Resistance Monitoring via
-                                        DeltaR Algorithm</a
-                                      >
-                                    </div>
-                                  </article>
-                                  <article
-                                    class="tab-pane fade"
-                                    id="category_tab3"
-                                  >
-                                    <div class="tab-flex" id="smartsearch">
-                                      <img
-                                        src="images/lock1.svg"
-                                        alt="search-tab"
-                                      />
-                                      <a href="#"
-                                        >Searchable GIS Dashboard for Electrical
-                                        Infrastructure</a
-                                      >
-                                    </div>
-                                    <div class="tab-flex" id="smartsmart">
-                                      <img
-                                        src="images/lock2.svg"
-                                        alt="search-tab"
-                                      />
-                                      <a href="#"
-                                        >Smart Lockout and Tag out Technology</a
-                                      >
-                                    </div>
-                                    <div class="tab-flex" id="smartcloud">
-                                      <img
-                                        src="images/wifi_icon.svg"
-                                        alt="search-tab"
-                                      />
-                                      <a href="#"
-                                        >Cloud-Based Workflow Software</a
-                                      >
-                                    </div>
-                                  </article>
-                                </div>
-                              </div>
+      <header class="">
+        <!-- site-navbar start -->
+        <div class="navbar-area">
+          <div class="container">
+            <nav class="site-navbar">
+              <!-- site logo -->
+              <a href="index.html"><img src="images/logoFull.svg" alt="logo" /></a>
+
+              <!-- site menu/nav -->
+              <ul class="navBar">
+                <li>
+                  <a class="nav-link" href="/index.html#cegma"><span>CEGMA</span></a>
+                </li>
+                <li class="dir tab-active">
+                  <div href="#" class="tab-hover">
+                    Products
+
+                    <div id="primary_nav_wrap">
+                      <div class="row">
+                        <div class="col-lg-5">
+                          <div class="tab">
+                            <button class="tablinks" id="assetvision" onmouseover="openCity(event, 'tab1')">
+                              <h4>Asset Vision</h4>
+                              <small>A GIS-based platform for managing and
+                                monitoring electrical assets</small>
+                            </button>
+                            <button class="tablinks" id="earthe5" onmouseover="openCity(event, 'tab2')">
+                              <h4>Earth E5</h4>
+                              <small>A GIS-based platform for managing and
+                                monitoring electrical assets</small>
+                            </button>
+                            <button class="tablinks" id="smartloto" onmouseover="openCity(event, 'tab3')">
+                              <h4>Smart LOTO</h4>
+                              <small>A GIS-based platform for managing and
+                                monitoring electrical assets</small>
+                            </button>
+                          </div>
+                        </div>
+                        <div class="col-lg-7">
+                          <div id="tab1" class="tabcontent">
+                            <div class="tab-flex" id="asset_tab_1">
+                              <img src="images/search-tab.svg" alt="search-tab" />
+                              <a href="/assetvision.html#feature_1">Searchable GIS Dashboard for Electrical
+                                Infrastructure</a>
                             </div>
-                          </li>
-                          <!-- <li class="dir">
-                            <a href="other.html">Other work</a>
-  
-                            <ul>
-                              <li><a href="#">Category 4</a></li>
-                              <li><a href="#">Category 5</a></li>
-                              <li><a href="#">Category 6</a></li>
-                            </ul>
-                          </li> -->
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>
-                  <li class="tab-responsive">
-                    <h5 class="res">
-                      <small href="#">Products</small>
-                      <i class="fa fa-angle-down" aria-hidden="true"></i>
-                    </h5>
-                    <div class="accordion-container">
-                      <div class="set">
-                        <span>
-                          Asset Vision
-                          <i class="fa fa-angle-down"></i>
-                        </span>
-                        <div class="content">
-                          <a href="/assetvision.html#feature_1"
-                            >Searchable GIS Dashboard for Electrical
-                            Infrastructure</a
-                          >
-                          <a href="assetvision.html#feature_2"
-                            >One-stop Dashboard for IoT based Sensor-based
-                            Monitoring of all Electrical Assets</a
-                          >
-                          <a href="assetvision.html#feature_3"
-                            >Digital Layout Map for the Plant's entire
-                            Electrical Infra</a
-                          >
-                        </div>
-                      </div>
-                      <div class="set">
-                        <span>
-                          Earth E5
-                          <i class="fa fa-angle-down"></i>
-                        </span>
-                        <div class="content">
-                          <a href="/earthe5.html#feature_1"
-                            >IoT-based Sensor for Earthing System Monitoring</a
-                          >
-                          <a href="/earthe5.html#feature_2">Leakage Voltage Monitoring</a>
-                          <a href="/earthe5.html#feature_3"
-                            >Earth Pit Resistance Monitoring via DeltaR
-                            Algorithm</a
-                          >
-                        </div>
-                      </div>
-                      <div class="set">
-                        <span>
-                          Smart LOTO
-                          <i class="fa fa-angle-down"></i>
-                        </span>
-                        <div class="content">
-                          <a href="/smartloto.html#feature_1">Smart Padlocks with Unique Identifiers</a>
-                          <a href="/smartloto.html#feature_2">Smart Lockout and Tagout Technology</a>
-                          <a href="/smartloto.html#feature_3">Cloud-Based Workflow Software</a>
+                            <div class="tab-flex" id="asset_tab_2">
+                              <img src="images/stop-icon.svg" alt="search-tab" />
+                              <a href="/assetvision.html#feature_2">One-stop Dashboard for IoT based Sensor-based
+                                Monitoring of all Electrical Assets</a>
+                            </div>
+                            <div class="tab-flex" id="asset_tab_3">
+                              <img src="images/gps.svg" alt="search-tab" />
+                              <a href="/assetvision.html#feature_3">Digital Layout Map for the Plant's entire
+                                Electrical Infra</a>
+                            </div>
+                          </div>
+                          <div id="tab2" class="tabcontent">
+                            <div class="tab-flex" id="earthe5_tab_1">
+                              <img src="images/iot.svg" alt="search-tab" />
+                              <a href="/earthe5.html#feature_1">IoT-based Sensor for Earthing System
+                                Monitoring</a>
+                            </div>
+                            <div class="tab-flex" id="earthe5_tab_2">
+                              <img src="images/lightning.svg" alt="search-tab" />
+                              <a href="/earthe5.html#feature_2">Leakage Voltage Monitoring</a>
+                            </div>
+                            <div class="tab-flex" id="earthe5_tab_3">
+                              <img src="images/wifi2.svg" alt="search-tab" />
+                              <a href="/earthe5.html#feature_3">Earth Pit Resistance Monitoring via DeltaR
+                                Algorithm</a>
+                            </div>
+                          </div>
+
+                          <div id="tab3" class="tabcontent">
+                            <div class="tab-flex" id="smartloto_tab_1">
+                              <img src="images/lock1.svg" alt="search-tab" />
+                              <a href="/smartloto.html#feature_1">Smart Padlocks with Unique Identifiers</a>
+                            </div>
+                            <div class="tab-flex" id="smartloto_tab_2">
+                              <img src="images/lock2.svg" alt="search-tab" />
+                              <a href="/smartloto.html#feature_2">Smart Lockout and Tag out Technology</a>
+                            </div>
+                            <div class="tab-flex" id="smartloto_tab_3">
+                              <img src="images/wifi_icon.svg" alt="search-tab" />
+                              <a href="/smartloto.html#feature_3">Cloud-Based Workflow Software</a>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </li>
-                  <li>
-                    <a class="nav-link" href="#features"
-                      ><span>Features</span></a
-                    >
-                  </li>
-                  <li>
-                    <a class="nav-link" href="#customers"
-                      ><span>Customers</span></a
-                    >
-                  </li>
-                  <li>
-                    <a class="nav-link" href="#news"><span>News </span></a>
-                  </li>
-                  <li>
-                    <a class="nav-link" href="#about"><span>About</span></a>
-                  </li>
-                  <!-- <li>
-                    <a class="nav-link" href="#partners"
-                      ><span>Partners</span></a
-                    >
+                  </div>
+                </li>
+
+                <li class="tab-responsive">
+                  <h5 class="res">
+                    <small href="#">Products</small>
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                  </h5>
+                  <div class="accordion-container">
+                    <a href="/assetvision.html" class="set">Asset Vision</a>
+                    <a href="/earthe5.html" class="set">Earth E5</a>
+                    <a href="/smartloto.html" class="set">Smart LOTO</a>
+
+
+                  </div>
+                </li>
+                <li>
+                  <a class="nav-link" href="/index.html#features"><span>Features</span></a>
+                </li>
+                <li>
+                  <a class="nav-link" href="/index.html#customers"><span>Customers</span></a>
+                </li>
+                <li>
+                  <a class="nav-link" href="/index.html#news"><span>News </span></a>
+                </li>
+                <li>
+                  <a class="nav-link" href="/index.html#about"><span>About</span></a>
+                </li>
+                <!-- <li>
+                    <a class="nav-link" href="/index.html#partners"><span>Partners</span></a>
                   </li> -->
-                  <li class="nav-item">
-                    <a class="login-in" href="#"><span>LOGIN </span></a>
-                  </li>
-                </ul>
-  
-                <!-- nav-toggler for mobile version only -->
-                <button class="nav-toggler">
-                  <span></span>
-                </button>
-              </nav>
-            </div>
+                <li class="nav-item">
+                  <a class="login-in" href="/index.html#"><span>LOGIN </span></a>
+                </li>
+              </ul>
+
+              <!-- nav-toggler for mobile version only -->
+              <button class="nav-toggler">
+                <span></span>
+              </button>
+            </nav>
           </div>
-          <!-- navbar-area end -->
-        </header>
+        </div>
+        <!-- navbar-area end -->
+      </header>
     </div>
     <!-- banner start -->
-    
+
 
     <div class="asset">
-        <div class="home-banner" id="cegma">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7 h-banner-left wow fadeInLeft" data-wow-delay="1s">
-                        <div class="">
-                            <h1>The Key to Safe and Efficient Lockout/Tagout Procedures</h1>
-                            <p>
-                                Smart LOTO is the next generation solution for electrical lockout and tagout procedures. By incorporating IoT technology and advanced safety features, Smart LOTO makes it easy for maintenance personnel to ensure that their electrical equipment is locked out properly before performing maintenance tasks.
-                            </p>
-                            <div>
-                                <a href="https://ayasta.typeform.com/to/eJGrmu" target="_blank">Request a Demo </a>
-                                <a href="#features" class="get-start">Get Started </a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-        <!-- banner end -->
-
-        <!-- CEGMA Earth E5 start -->
-        <div class="earth key_features" id="features">
-            <div class="container">
-                <h2 class="innvent-hed">Key Features</h2>
+      <div class="home-banner" id="cegma">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7 h-banner-left wow fadeInLeft" data-wow-delay="1s">
+              <div class="">
+                <h1>The Key to Safe and Efficient Lockout/Tagout Procedures</h1>
                 <p>
-                  With Smart LOTO, you can be sure that your maintenance personnel are following proper lockout and tagout procedures, 
-                  reducing the risk of accidents and improving safety and compliance. This innovative solution is easy to use and integrate
-                  with your existing procedures, making it the perfect choice for any industrial site that wants to enhance their
-                  electrical safety program
+                  Smart LOTO is the next generation solution for electrical lockout and tagout procedures. By
+                  incorporating IoT technology and advanced safety features, Smart LOTO makes it easy for maintenance
+                  personnel to ensure that their electrical equipment is locked out properly before performing
+                  maintenance tasks.
                 </p>
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 d-flex wow fadeInUp" data-wow-delay="0.2s">
-                        <img src="images/smartloto/key1.png" alt="">
-                        
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 align-items-center d-flex wow fadeInUp"
-                        data-wow-delay="0.2s" id="feature_1">
-                        <h4>Smart Padlocks with Unique Identifiers</h4>
-                    </div>
+                <div>
+                  <a href="https://ayasta.typeform.com/to/eJGrmu" target="_blank">Request a Demo </a>
+                  <a href="#features" class="get-start">Get Started </a>
                 </div>
-                <hr>
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 align-items-center d-flex wow fadeInUp"
-                        data-wow-delay="0.2s" id="feature_2">
-                        <h4>Smart Lockout and Tagout Technology</h4>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 d-flex wow fadeInUp" data-wow-delay="0.2s">
-                        <img src="images/smartloto/key2.png" alt="">
-                        
-                    </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- banner end -->
+
+      <!-- CEGMA Earth E5 start -->
+      <div class="earth key_features" id="features">
+        <div class="container">
+          <h2 class="innvent-hed">Key Features</h2>
+          <p>
+            With Smart LOTO, you can be sure that your maintenance personnel are following proper lockout and tagout
+            procedures,
+            reducing the risk of accidents and improving safety and compliance. This innovative solution is easy to use
+            and integrate
+            with your existing procedures, making it the perfect choice for any industrial site that wants to enhance
+            their
+            electrical safety program
+          </p>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 d-flex wow fadeInUp" data-wow-delay="0.2s">
+              <img src="images/smartloto/key1.png" alt="">
+
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 align-items-center d-flex wow fadeInUp" data-wow-delay="0.2s"
+              id="feature_1">
+              <h4>Smart Padlocks with Unique Identifiers</h4>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 align-items-center d-flex wow fadeInUp" data-wow-delay="0.2s"
+              id="feature_2">
+              <h4>Smart Lockout and Tagout Technology</h4>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 d-flex wow fadeInUp" data-wow-delay="0.2s">
+              <img src="images/smartloto/key2.png" alt="">
+
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 d-flex wow fadeInUp" data-wow-delay="0.2s">
+              <img src="images/smartloto/key3.png" alt="">
+
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 align-items-center d-flex wow fadeInUp" data-wow-delay="0.2s"
+              id="feature_3">
+              <h4>Cloud-Based Workflow Software</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CEGMA Earth E5 end -->
+
+      <!-- news start -->
+      <div class="news" id="news">
+        <div class="container pt-5">
+          <h2 class="text-white">Summary</h2>
+          <p class="text-white">
+            Smart LOTO offers a more streamlined and efficient approach to LOTO safety procedures compared to manual or
+            legacy processes.
+          </p>
+          <div class="multiple-items-c">
+            <div class="slickSlider">
+              <div class="card ">
+                <img src="images/smartloto/summary_s_1.png" class="d-block w-100" alt="...">
+                <div class="card-body d-flex justify-content-center">
+                  <div class="text-center">
+                    <h5 class="card-title">Compliance</h5>
+                    <p>By sharing step-by-step processes and customizable isolation procedure plans, you can be sure
+                      that your personnel are following proper procedures every time.</p>
+                  </div>
                 </div>
-                <hr>
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 d-flex wow fadeInUp" data-wow-delay="0.2s">
-                        <img src="images/smartloto/key3.png" alt="">
-                        
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 align-items-center d-flex wow fadeInUp"
-                        data-wow-delay="0.2s" id="feature_3">
-                        <h4>Cloud-Based Workflow Software</h4>
+              </div>
+            </div>
+            <div class="slickSlider">
+              <div class="card" >
+                <img src="images/smartloto/summary_s_2.png" class="d-block w-100" alt="...">
+                <div class="card-body d-flex justify-content-center">
+                    <div class="text-center">
+                        <h5 class="card-title">Efficiency</h5>
+                        <p>Smart LOTO streamlines the lockout and tagout process, allowing you to create customized lockouts and templates for common procedures. This can save time and reduce the risk of human error.</p>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- CEGMA Earth E5 end -->
+            </div>
+            <div class="slickSlider">
+              <div class="card " >
+                <img src="images/smartloto/summary_s_3.png" class="d-block w-100" alt="...">
+                <div class="card-body d-flex justify-content-center">
+                    <div class="text-center">
+                        <h5 class="card-title">Fast Proces</h5>
+                        <p>With real-time communication, Smart LOTO can speed up the LOTO process, reducing the time it takes to secure electrical equipment before maintenance activities. This can help reduce downtime and improve productivity.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="slickSlider">
+              <div class="card" >
+                <img src="images/smartloto/summary_s_4.png" class="d-block w-100" alt="...">
+                <div class="card-body d-flex justify-content-center">
+                    <div class="text-center">
+                        <h5 class="card-title">Trackable</h5>
+                        <p>Smart LOTO provides a complete audit trail of lockout and tagout activities, making it easy to track who performed each step of the process and when. This can be valuable for safety audits and compliance reporting. </p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="slickSlider">
+              <div class="card" >
+                <img src="images/smartloto/summary_s_5.png" class="d-block w-100" alt="...">
+                <div class="card-body d-flex justify-content-center">
+                    <div class="text-center">
+                        <h5 class="card-title">Mobile Based Keys</h5>
+                        <p>Ditch the physical keys and switch to mobile-based keys. Smart LOTO allows you to use mobile devices to control and manage access to lockout and tagout</p>
+                    </div>
+                </div>
+            </div>
+            </div>
 
-        <!-- news start -->
-        <div class="news" id="news">
-            <div class="container pt-5">
-                <h2 class="text-white">Summary</h2>
-                <p class="text-white">
-                    Smart LOTO offers a more streamlined and efficient approach to LOTO safety procedures compared to manual or legacy processes.
-                </p>
-                <div id="carouselExampleIndicators" class="carousel slide pt-5" data-ride="carousel">
+          </div>
+
+          <div class="left-arrow1">
+            <a class="prev-c" href="#">
+              <img src="images/EARTHE5/prev.svg" />
+            </a>
+          </div>
+
+          <div class="right-arrow1">
+            <a class=" next-c" href="#">
+              <img src="images/EARTHE5/next.svg" alt="">
+            </a>
+          </div>
+          <!-- <div id="carouselExampleIndicators" class="carousel slide pt-5" data-ride="carousel">
 
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <div class="card " >
-                                <img src="images/smartloto/summary_s_1.png" class="d-block w-100" alt="...">
-                                <div class="card-body d-flex justify-content-center">
-                                    <div class="text-center">
-                                        <h5 class="card-title">Compliance</h5>
-                                        <p>By sharing step-by-step processes and customizable isolation procedure plans, you can be sure that your personnel are following proper procedures every time.</p>
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
                         <div class="carousel-item">
-                            <div class="card" >
-                                <img src="images/smartloto/summary_s_2.png" class="d-block w-100" alt="...">
-                                <div class="card-body d-flex justify-content-center">
-                                    <div class="text-center">
-                                        <h5 class="card-title">Efficiency</h5>
-                                        <p>Smart LOTO streamlines the lockout and tagout process, allowing you to create customized lockouts and templates for common procedures. This can save time and reduce the risk of human error.</p>
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
                         <div class="carousel-item">
-                            <div class="card " >
-                                <img src="images/smartloto/summary_s_3.png" class="d-block w-100" alt="...">
-                                <div class="card-body d-flex justify-content-center">
-                                    <div class="text-center">
-                                        <h5 class="card-title">Fast Proces</h5>
-                                        <p>With real-time communication, Smart LOTO can speed up the LOTO process, reducing the time it takes to secure electrical equipment before maintenance activities. This can help reduce downtime and improve productivity.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
                         <div class="carousel-item">
-                            <div class="card" >
-                                <img src="images/smartloto/summary_s_4.png" class="d-block w-100" alt="...">
-                                <div class="card-body d-flex justify-content-center">
-                                    <div class="text-center">
-                                        <h5 class="card-title">Trackable</h5>
-                                        <p>Smart LOTO provides a complete audit trail of lockout and tagout activities, making it easy to track who performed each step of the process and when. This can be valuable for safety audits and compliance reporting. </p>
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
                         <div class="carousel-item">
-                            <div class="card" >
-                                <img src="images/smartloto/summary_s_5.png" class="d-block w-100" alt="...">
-                                <div class="card-body d-flex justify-content-center">
-                                    <div class="text-center">
-                                        <h5 class="card-title">Mobile Based Keys</h5>
-                                        <p>Ditch the physical keys and switch to mobile-based keys. Smart LOTO allows you to use mobile devices to control and manage access to lockout and tagout</p>
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
 
                     </div>
@@ -515,116 +420,116 @@
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
-                </div>
-            </div>
+                </div> -->
         </div>
-        <!-- news end -->
-        <!-- Customers start -->
-        <div class="customer wow fadeInUp" data-wow-delay="1s" id="customers">
-            <div class="container">
-                <div class="row pb-5">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 d-flex wow fadeInUp" data-wow-delay="0.2s">
-                        <img src="images/smartloto/benifits.png" alt="">
-                        
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 align-items-center d-flex wow fadeInUp"
-                        data-wow-delay="0.2s">
-                        <div class="benifits">
-                            <h5>Benefits</h5>
-                            <ol class="pt-1">
-                              
-                                <li>Improved Safety for Employees and Equipment</li>
-                                <li> Greater Control and Visibility over LOTO Procedures</li>
-                                <li> Reduced Downtime and Increased Productivity</li>
-                            
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-                <h2 class="innvent-hed pt-5">Industries</h2>
-               
-                <!--  -->
-                <ul class="owl-carousel" id="customers-testimonials">
-                    <li class="our-customer-card">
-                        <div class="card">
-                            <div class="d-flex justify-content-center card-body">
-                                <div>
-                                    <img src="images/smartloto/industry_1.svg" alt="hp" width="25px"/>
-                                  <p class="card-text pt-5">OIL AND GAS</p>
-                                </div>
-                            </div>
-                          </div>
-                    </li>
+      </div>
+      <!-- news end -->
+      <!-- Customers start -->
+      <div class="customer wow fadeInUp" data-wow-delay="1s" id="customers">
+        <div class="container">
+          <div class="row pb-5">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 d-flex wow fadeInUp" data-wow-delay="0.2s">
+              <img src="images/smartloto/benifits.png" alt="">
 
-                    <li class="our-customer-card">
-                        <div class="card">
-                            <div class="d-flex justify-content-center card-body">
-                                <div>
-                                    <img src="images/smartloto/industry_2.svg" alt="hp" width="25px"/>
-                                  <p class="card-text pt-5">Automotive</p>
-                                </div>
-                            </div>
-                          </div>
-                    </li>
-
-                    <li class="our-customer-card">
-                        <div class="card">
-                            <div class="d-flex justify-content-center card-body">
-                                <div>
-                                    <img src="images/smartloto/industry_3.svg" alt="hp" width="25px"/>
-                                  <p class="card-text pt-5">Construction</p>
-                                </div>
-                            </div>
-                          </div>
-                    </li>
-                    <li class="our-customer-card">
-                        <div class="card">
-                            <div class="d-flex justify-content-center card-body">
-                                <div>
-                                    <img src="images/smartloto/industry_4.svg" alt="hp" width="25px"/>
-                                  <p class="card-text pt-5">Manufacturing</p>
-                                </div>
-                            </div>
-                          </div>
-                    </li>
-                    
-                </ul>
-                <!--  -->
             </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 align-items-center d-flex wow fadeInUp"
+              data-wow-delay="0.2s">
+              <div class="benifits">
+                <h5>Benefits</h5>
+                <ol class="pt-1">
+
+                  <li>Improved Safety for Employees and Equipment</li>
+                  <li> Greater Control and Visibility over LOTO Procedures</li>
+                  <li> Reduced Downtime and Increased Productivity</li>
+
+                </ol>
+              </div>
+            </div>
+          </div>
+          <h2 class="innvent-hed pt-5">Industries</h2>
+
+          <!--  -->
+          <ul class="owl-carousel" id="customers-testimonials">
+            <li class="our-customer-card">
+              <div class="card">
+                <div class="d-flex justify-content-center card-body">
+                  <div>
+                    <img src="images/smartloto/industry_1.svg" alt="hp" width="25px" />
+                    <p class="card-text pt-5">Oil and Gas</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="our-customer-card">
+              <div class="card">
+                <div class="d-flex justify-content-center card-body">
+                  <div>
+                    <img src="images/smartloto/industry_2.svg" alt="hp" width="25px" />
+                    <p class="card-text pt-5">Automotive</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="our-customer-card">
+              <div class="card">
+                <div class="d-flex justify-content-center card-body">
+                  <div>
+                    <img src="images/smartloto/industry_3.svg" alt="hp" width="25px" />
+                    <p class="card-text pt-5">Construction</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="our-customer-card">
+              <div class="card">
+                <div class="d-flex justify-content-center card-body">
+                  <div>
+                    <img src="images/smartloto/industry_4.svg" alt="hp" width="25px" />
+                    <p class="card-text pt-5">Manufacturing</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+          <!--  -->
         </div>
-        <!-- Customers end -->
+      </div>
+      <!-- Customers end -->
     </div>
 
     <script>
-        $(document).ready(function ($) {
-          "use strict";
-          $("#customers-testimonials").owlCarousel({
-            loop: true,
-            center: false,
-            items: 4,
-            margin: 30,
-            autoplay: false,
-            dots: false,
-            nav: true,
-            autoplayTimeout: 8500,
-            smartSpeed: 450,
-            responsive: {
-              0: {
-                items: 1,
-              },
-              540: {
-                items: 2,
-              },
-              768: {
-                items: 3,
-              },
-              992: {
-                items: 4,
-              },
+      $(document).ready(function ($) {
+        "use strict";
+        $("#customers-testimonials").owlCarousel({
+          loop: true,
+          center: false,
+          items: 4,
+          margin: 30,
+          autoplay: false,
+          dots: false,
+          nav: true,
+          autoplayTimeout: 8500,
+          smartSpeed: 450,
+          responsive: {
+            0: {
+              items: 1,
             },
-          });
+            540: {
+              items: 2,
+            },
+            768: {
+              items: 3,
+            },
+            992: {
+              items: 4,
+            },
+          },
         });
-      </script>
+      });
+    </script>
 
     <!-- footer start -->
     <footer>
@@ -723,6 +628,26 @@
   <script src="js/bootnavbar.js"></script>
   <script src="js/smooothscroll.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/slick.min.js"></script>
+
+  <script>
+    new WOW().init();
+  </script>
+  <script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+  </script>
   <script>
     $(document).ready(function () {
       $(".res").click(function () {
@@ -732,6 +657,7 @@
   </script>
   <script>
     new WOW().init();
+    $(document).foundation();
   </script>
   <script>
     $(document).ready(function () {
@@ -756,47 +682,6 @@
           $(this).siblings(".content").slideDown(200);
         }
       });
-    });
-  </script>
-  <!-- nav bar -->
-  <!-- nav bar end -->
-
-  <script>
-    $(document).ready(function () {
-      $(".navBar li a").click(function () {
-        $(".navBar").collapse("hide");
-      });
-    });
-
-    document.querySelectorAll("#myTab a").forEach(function (everyitem) {
-      var tabTrigger = new bootstrap.Tab(everyitem);
-      everyitem.addEventListener("mouseenter", function () {
-        tabTrigger.show();
-      });
-    });
-  </script>
-  <script>
-    $(document).ready(function () {
-      $(".menu_icon").click(function () {
-        $(".nav_items").slideToggle("1000");
-        $(".menu_icon").toggleClass("active_menu");
-      });
-    });
-
-    $(document).ready(function () {
-      $(".nav-link span").click(function () {
-        $(".nav-link span").removeClass("nav-active");
-        $(this).addClass("nav-active");
-      });
-    });
-  </script>
-  <script type="text/javascript">
-    $(window).on("scroll", function () {
-      if ($(window).scrollTop()) {
-        $(".nav-top").addClass("nav-sticky");
-      } else {
-        $(".nav-top").removeClass("nav-sticky");
-      }
     });
   </script>
   <script>
@@ -907,6 +792,71 @@
             items: 4,
           },
         },
+      });
+    });
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $(".multiple-items-c").slick({
+        prevArrow: ".prev-c",
+        nextArrow: ".next-c",
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        dots: true,
+        arrows: true,
+
+        responsive: [
+          {
+            breakpoint: 1600,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 1130,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 991,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+            },
+          },
+
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              arrows: false,
+            },
+          },
+          {
+            breakpoint: 320,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              arrows: false,
+            },
+          },
+        ],
       });
     });
   </script>
