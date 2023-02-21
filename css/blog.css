@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --primary: #1832b9;
+  --dark: #000000;
+  --dark-secondary: #767676;
+  --white: #ffffff;
+}
+
+.navbar-custom,
+.header,
+#soc1,
+#soc2,
+#soc3 {
+  opacity: 0.9;
+}
+
+.header,
+.section-header {
+  color: #1832b9;
+  font-weight: bold;
+  font-family: "Arial", Sans-serif;
+  font-size: 30pt;
+}
+
+.header {
+  color: #263238;
+  font-size: 60pt;
+  margin-top: 1em;
+}
+
+#aboutMe0,
+#whatIOffer1,
+#whatIOffer3,
+.project-card {
+  width: 100%;
+  max-width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#whatIOffer1,
+#whatIOffer3 {
+  margin-top: 10em;
+  margin-bottom: 10em;
+}
+
+#aboutMeImg,
+.project-card,
+#soc1,
+#soc2,
+#soc3 {
+  margin: auto;
+  display: block;
+}
+
+.card-img-top {
+  width: 100%;
+}
+
+#contacts {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  background: url("../images/banner.png");
+}
+
+.bg-image {
+  height: auto;
+  background: url("../images/banner.png");
+}
+.logo_head h1{
+  text-align: right;
+}
+.bg-image,
+#contacts {
+  overflow: hidden;
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.odd-even {
+  background: gray;
+}
+
+.header,
+#aboutMe,
+#projects,
+#contacts {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+#contacts {
+  padding-bottom: 500px;
+}
+
+#aboutMe {
+  background: #fffaeb;
+}
+#aboutMe h3{
+  font-size: 30px;
+}
+#aboutMe p{
+  font-size: 20px;
+}
+#aboutMe,
+#projects {
+  display: flex;
+  justify-content: center;
+  background: #fff;
+}
+#projects p{
+  font-size: 18px;
+}
+
+.content {
+  width: 70%;
+  color: #424242;
+}
+
+#aboutMe0 {
+  color: #424242;
+  /* margin-bottom: 10em; */
+}
+#theoutcome{
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  background: #e5e5e5;
+}
+#cegmahelp{
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+}
+#cegmahelp li{
+  font-size: 18px;
+}
+#whatIOffer{
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background: #e5e5e5;
+}
+
+#whatIOffer1 p{
+  font-size: 20px;
+  color: #000000;
+}
+
+
+
