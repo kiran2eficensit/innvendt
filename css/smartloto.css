@@ -277,6 +277,7 @@ line-height: 28px;
   }
   #customers-testimonials {
     position: relative;
+    background-color: #ebeafb;
   }
   
   #customers-testimonials .owl-item {

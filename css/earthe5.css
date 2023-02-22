@@ -130,6 +130,7 @@ color: #000000;
 .benifits h5{
     color: var(--primary);
     padding-bottom: 40px;
+    font-size: 24px;
 }
 .benifits ol{
     padding-left: 23px;
@@ -372,6 +373,7 @@ line-height: 45px;
     padding: 30px;
     background: url(../images/asset/right_quote.svg) no-repeat;
     background-position: 98% 7%;
+    background-color: rgb(255, 255, 255);
 }
 .about-card:hover {
     border: 1px solid var(--primary);
