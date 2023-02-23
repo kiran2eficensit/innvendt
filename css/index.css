@@ -4,6 +4,16 @@
     background-size: cover;
     padding: 70px 0 250px;
   }
+  .hover-item:hover{
+    border-bottom: 3.5px solid rgb(24, 50, 185,1);
+    padding-bottom:0 ;
+
+  }
+  .hover-item:active{
+    border-bottom: 2px solid #434D5F !important;
+    padding-bottom:0 !important;
+
+  }
   
   .h-banner-left {}
   
@@ -232,7 +242,7 @@
   
   .owl-carousel .owl-nav button.owl-prev,
   .owl-carousel .owl-nav button.owl-next {
-    background: var(--primary);
+   
     color: var(--white);
     font-size: 20px;
     width: 40px;
