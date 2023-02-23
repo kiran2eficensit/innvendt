@@ -93,7 +93,7 @@
     display: none;
 }
 .earth h4{
-    font-family: 'Inter';
+    font-family: 'albert sans';
 font-style: normal;
 font-weight: 600;
 font-size: 24px;
@@ -189,6 +189,7 @@ line-height: 45px;
     font-size: 20px;
     line-height: 28px;
     color: #000000;
+    font-family: 'albert sans';
 }
 
 .news .card-body p {

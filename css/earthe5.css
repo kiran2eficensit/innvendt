@@ -90,7 +90,7 @@
     display: none;
 }
 .earth h4{
-    font-family: 'Inter';
+font-family: 'albert sans';
 font-style: normal;
 font-weight: 600;
 font-size: 24px;
@@ -191,6 +191,7 @@ line-height: 45px;
     font-size: 20px;
     line-height: 28px;
     color: #000000;
+    font-family: 'albert sans';
 }
 
 .news .card-body p {
@@ -369,7 +370,7 @@ line-height: 45px;
 
 .about-card {
     height: 324px;
-    
+    background-color: #FFFFFF;
     box-shadow: 0 4px 60px 0 rgb(0 0 0 / 10%);
     border-radius: 5px;
     margin-top: 30px;
