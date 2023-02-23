@@ -135,7 +135,7 @@ color: #000000;
     color: var(--primary);
     padding-left: 23px;
     font-family: 'Albert Sans';
-    /* padding-bottom: 20px; */
+    padding-bottom: 20px;
 }
 .benifits li{
     padding-left: 23px;
