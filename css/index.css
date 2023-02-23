@@ -130,9 +130,13 @@
     color: var(--primary);
     font-weight: 500;
     text-align: center;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
     font-family: 'Albert Sans';
   }
+  .our_services,.about_head{
+    padding-top: 50px;
+  }
+  
   
   .earth p {
     font-size: 15px;
@@ -359,7 +363,7 @@
     transform: scale(1.1);
     transition: all 0.5s;
   }
-  
+
   
   /* partners end */
   /* about start */
@@ -427,7 +431,9 @@
   /* about end */
   /* services start */
   .services {
-    padding: 80px 0;
+    /* padding: 80px 0; */
+
+    margin-top: 40px;
     background: #ffffff;
   }
   
