@@ -4,11 +4,11 @@
     background-size: cover;
     padding: 70px 0 250px;
   }
-  .hover-item:hover{
+  /* .hover-item:hover{
     border-bottom: 3.5px solid rgb(24, 50, 185,1);
     padding-bottom:0 ;
 
-  }
+  } */
   .hover-item:active{
     border-bottom: 2px solid #434D5F !important;
     padding-bottom:0 !important;
@@ -378,7 +378,7 @@
   /* partners end */
   /* about start */
   .about {
-    padding: 2px 0;
+     padding: 2px 0; 
     background: #f4f8ff;
   }
   
