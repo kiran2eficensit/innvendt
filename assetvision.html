@@ -26,234 +26,233 @@
 </head>
 
 <body>
-  <div class="nav-top">
-    <!-- <header class="">
-        <nav class="navbar navbar-expand-lg site-navbar" id="main_navbar">
-          <div class="container">
-            <a class="navbar-brand" href="index.html">
-              <img src="images/logo.svg" alt="logo"
-            /></a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarResponsive"
-              aria-controls="navbarResponsive"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <div class="menu_icon">
-                <div></div>
-                <div></div>
-                <div></div>
+  <div class="wrapper">
+    <!-- Header -->
+    <div class="nav-top">
+      <!-- <header class="">
+          <nav class="navbar navbar-expand-lg site-navbar" id="main_navbar">
+            <div class="container">
+              <a class="navbar-brand" href="index.html">
+                <img src="images/logo.svg" alt="logo"
+              /></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarResponsive"
+                aria-controls="navbarResponsive"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <div class="menu_icon">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto navBar">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#cegma"
+                      ><span class="nav-active">CEGMA</span></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#features"
+                      ><span>Features</span></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#customers"
+                      ><span>Customers</span></a
+                    >
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#news"><span>News </span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about"><span>About</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#partners"
+                      ><span>Partners</span></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="login-in" href="#"><span>LOGIN </span></a>
+                  </li>
+                </ul>
               </div>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-              <ul class="navbar-nav ml-auto navBar">
-                <li class="nav-item">
-                  <a class="nav-link" href="#cegma"
-                    ><span class="nav-active">CEGMA</span></a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#features"
-                    ><span>Features</span></a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#customers"
-                    ><span>Customers</span></a
-                  >
+            </div>
+          </nav>
+        </header> -->
+
+      <header class="">
+        <!-- site-navbar start -->
+        <div class="navbar-area">
+          <div class="container">
+            <nav class="site-navbar">
+              <!-- site logo -->
+              <a href="index.html"><img src="images/logoFull.svg" alt="logo" /></a>
+
+              <!-- site menu/nav -->
+              <ul class="navBar">
+                <li class="dir">
+                  <div href="#" class="tab-hover">
+                    Products
+
+                    <div id="primary_nav_wrap">
+                      <div class="row">
+                        <div class="col-lg-5">
+                          <div class="tab">
+                            <button class="tablinks" id="assetvision" onmouseover="openCity(event, 'tab1')">
+                              <h4>Asset Vision</h4>
+                              <small>A GIS-based platform for managing and
+                                monitoring electrical assets</small>
+                            </button>
+                            <button class="tablinks" id="earthe5" onmouseover="openCity(event, 'tab2')">
+                              <h4>Earth E5</h4>
+                              <small>A GIS-based platform for managing and
+                                monitoring electrical assets</small>
+                            </button>
+                            <button class="tablinks" id="smartloto" onmouseover="openCity(event, 'tab3')">
+                              <h4>Smart LOTO</h4>
+                              <small>A GIS-based platform for managing and
+                                monitoring electrical assets</small>
+                            </button>
+                          </div>
+                        </div>
+                        <div class="col-lg-7">
+                          <div id="tab1" class="tabcontent">
+                            <div class="tab-flex" id="asset_tab_1">
+                              <img src="images/search-tab.svg" alt="search-tab" />
+                              <a href="/innvendt/assetvision.html#feature_1">Searchable GIS Dashboard for Electrical
+                                Infrastructure</a>
+                            </div>
+                            <div class="tab-flex" id="asset_tab_2">
+                              <img src="images/stop-icon.svg" alt="search-tab" />
+                              <a href="/innvendt/assetvision.html#feature_2">One-stop Dashboard for IoT based Sensor-based
+                                Monitoring of all Electrical Assets</a>
+                            </div>
+                            <div class="tab-flex" id="asset_tab_3">
+                              <img src="images/gps.svg" alt="search-tab" />
+                              <a href="/innvendt/assetvision.html#feature_3">Digital Layout Map for the Plant's entire
+                                Electrical Infra</a>
+                            </div>
+                          </div>
+                          <div id="tab2" class="tabcontent">
+                            <div class="tab-flex" id="earthe5_tab_1">
+                              <img src="images/iot.svg" alt="search-tab" />
+                              <a href="/innvendt/earthe5.html#feature_1">IoT-based Sensor for Earthing System
+                                Monitoring</a>
+                            </div>
+                            <div class="tab-flex" id="earthe5_tab_2">
+                              <img src="images/lightning.svg" alt="search-tab" />
+                              <a href="/innvendt/earthe5.html#feature_2">Leakage Voltage Monitoring</a>
+                            </div>
+                            <div class="tab-flex" id="earthe5_tab_3">
+                              <img src="images/wifi2.svg" alt="search-tab" />
+                              <a href="/innvendt/earthe5.html#feature_3">Earth Pit Resistance Monitoring via DeltaR
+                                Algorithm</a>
+                            </div>
+                          </div>
+
+                          <div id="tab3" class="tabcontent">
+                            <div class="tab-flex" id="smartloto_tab_1">
+                              <img src="images/lock1.svg" alt="search-tab" />
+                              <a href="/innvendt/smartloto.html#feature_1">Smart Padlocks with Unique Identifiers</a>
+                            </div>
+                            <div class="tab-flex" id="smartloto_tab_2">
+                              <img src="images/lock2.svg" alt="search-tab" />
+                              <a href="/innvendt/smartloto.html#feature_2">Smart Lockout and Tag out Technology</a>
+                            </div>
+                            <div class="tab-flex" id="smartloto_tab_3">
+                              <img src="images/wifi_icon.svg" alt="search-tab" />
+                              <a href="/innvendt/smartloto.html#feature_3">Cloud-Based Workflow Software</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </li>
 
-                <li class="nav-item">
+                <li class="tab-responsive">
+                  <h5 class="res">
+                    <small href="#">Products</small>
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                  </h5>
+                  <div class="accordion-container">
+                    <div class="set">
+                      <span id="assetvision">
+                        Asset Vision
+                        <i class="fa fa-angle-down"></i>
+                      </span>
+                      <div class="content">
+                        <a href="/innvendt/assetvision.html#feature_1">Searchable GIS Dashboard for Electrical
+                          Infrastructure</a>
+                        <a href="/innvendt/assetvision.html#feature_2">One-stop Dashboard for IoT based Sensor-based
+                          Monitoring of all Electrical Assets</a>
+                        <a href="/innvendt/assetvision.html#feature_3">Digital Layout Map for the Plant's entire
+                          Electrical Infra</a>
+                      </div>
+                    </div>
+                    <div class="set">
+                      <span>
+                        Earth E5
+                        <i class="fa fa-angle-down"></i>
+                      </span>
+                      <div class="content">
+                        <a href="/innvendt/earthe5.html#feature_1">IoT-based Sensor for Earthing System Monitoring</a>
+                        <a href="/innvendt/earthe5.html#feature_2">Leakage Voltage Monitoring</a>
+                        <a href="/innvendt/earthe5.html#feature_3">Earth Pit Resistance Monitoring via DeltaR
+                          Algorithm</a>
+                      </div>
+                    </div>
+                    <div class="set">
+                      <span>
+                        Smart LOTO
+                        <i class="fa fa-angle-down"></i>
+                      </span>
+                      <div class="content">
+                        <a href="/innvendt/smartloto.html#feature_1">Smart Padlocks with Unique Identifiers</a>
+                        <a href="/innvendt/smartloto.html#feature_2">Smart Lockout and Tagout Technology</a>
+                        <a href="/innvendt/smartloto.html#feature_3">Cloud-Based Workflow Software</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a class="nav-link" href="#features"><span>Features</span></a>
+                </li>
+                <li>
+                  <a class="nav-link" href="#customers"><span>Customers</span></a>
+                </li>
+                <li>
                   <a class="nav-link" href="#news"><span>News </span></a>
                 </li>
-                <li class="nav-item">
+                <li>
                   <a class="nav-link" href="#about"><span>About</span></a>
                 </li>
+                <!-- <li>
+                  <a class="nav-link" href="#partners"><span>Partners</span></a>
+                </li> -->
                 <li class="nav-item">
-                  <a class="nav-link" href="#partners"
-                    ><span>Partners</span></a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="login-in" href="#"><span>LOGIN </span></a>
+                  <a class="login-in" href="#"><span>Login </span></a>
                 </li>
               </ul>
-            </div>
+
+              <!-- nav-toggler for mobile version only -->
+              <button class="nav-toggler">
+                <span></span>
+              </button>
+            </nav>
           </div>
-        </nav>
-      </header> -->
-
-    <header class="">
-      <!-- site-navbar start -->
-      <div class="navbar-area">
-        <div class="container">
-          <nav class="site-navbar">
-            <!-- site logo -->
-            <a href="index.html"><img src="images/logoFull.svg" alt="logo" /></a>
-
-            <!-- site menu/nav -->
-            <ul class="navBar">
-              <li>
-                <a class="nav-link" href="#cegma"><span class="nav-active">CEGMA</span></a>
-              </li>
-              <li class="dir">
-                <div href="#" class="tab-hover">
-                  Products
-
-                  <div id="primary_nav_wrap">
-                    <div class="row">
-                      <div class="col-lg-5">
-                        <div class="tab">
-                          <button class="tablinks" id="assetvision" onmouseover="openCity(event, 'tab1')">
-                            <h4>Asset Vision</h4>
-                            <small>A GIS-based platform for managing and
-                              monitoring electrical assets</small>
-                          </button>
-                          <button class="tablinks" id="earthe5" onmouseover="openCity(event, 'tab2')">
-                            <h4>Earth E5</h4>
-                            <small>A GIS-based platform for managing and
-                              monitoring electrical assets</small>
-                          </button>
-                          <button class="tablinks" id="smartloto" onmouseover="openCity(event, 'tab3')">
-                            <h4>Smart LOTO</h4>
-                            <small>A GIS-based platform for managing and
-                              monitoring electrical assets</small>
-                          </button>
-                        </div>
-                      </div>
-                      <div class="col-lg-7">
-                        <div id="tab1" class="tabcontent">
-                          <div class="tab-flex" id="asset_tab_1">
-                            <img src="images/search-tab.svg" alt="search-tab" />
-                            <a href="/innvendt/assetvision.html#feature_1">Searchable GIS Dashboard for Electrical
-                              Infrastructure</a>
-                          </div>
-                          <div class="tab-flex" id="asset_tab_2">
-                            <img src="images/stop-icon.svg" alt="search-tab" />
-                            <a href="/innvendt/assetvision.html#feature_2">One-stop Dashboard for IoT based Sensor-based
-                              Monitoring of all Electrical Assets</a>
-                          </div>
-                          <div class="tab-flex" id="asset_tab_3">
-                            <img src="images/gps.svg" alt="search-tab" />
-                            <a href="/innvendt/assetvision.html#feature_3">Digital Layout Map for the Plant's entire
-                              Electrical Infra</a>
-                          </div>
-                        </div>
-                        <div id="tab2" class="tabcontent">
-                          <div class="tab-flex" id="earthe5_tab_1">
-                            <img src="images/iot.svg" alt="search-tab" />
-                            <a href="/innvendt/earthe5.html#feature_1">IoT-based Sensor for Earthing System
-                              Monitoring</a>
-                          </div>
-                          <div class="tab-flex" id="earthe5_tab_2">
-                            <img src="images/lightning.svg" alt="search-tab" />
-                            <a href="/innvendt/earthe5.html#feature_2">Leakage Voltage Monitoring</a>
-                          </div>
-                          <div class="tab-flex" id="earthe5_tab_3">
-                            <img src="images/wifi2.svg" alt="search-tab" />
-                            <a href="/innvendt/earthe5.html#feature_3">Earth Pit Resistance Monitoring via DeltaR
-                              Algorithm</a>
-                          </div>
-                        </div>
-
-                        <div id="tab3" class="tabcontent">
-                          <div class="tab-flex" id="smartloto_tab_1">
-                            <img src="images/lock1.svg" alt="search-tab" />
-                            <a href="/innvendt/smartloto.html#feature_1">Smart Padlocks with Unique Identifiers</a>
-                          </div>
-                          <div class="tab-flex" id="smartloto_tab_2">
-                            <img src="images/lock2.svg" alt="search-tab" />
-                            <a href="/innvendt/smartloto.html#feature_2">Smart Lockout and Tag out Technology</a>
-                          </div>
-                          <div class="tab-flex" id="smartloto_tab_3">
-                            <img src="images/wifi_icon.svg" alt="search-tab" />
-                            <a href="/innvendt/smartloto.html#feature_3">Cloud-Based Workflow Software</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-
-              <li class="tab-responsive">
-                <h5 class="res">
-                  <small href="#">Products</small>
-                  <i class="fa fa-angle-down" aria-hidden="true"></i>
-                </h5>
-                <div class="accordion-container">
-                  <div class="set">
-                    <span id="assetvision">
-                      Asset Vision
-                      <i class="fa fa-angle-down"></i>
-                    </span>
-                    <div class="content">
-                      <a href="/innvendt/assetvision.html#feature_1">Searchable GIS Dashboard for Electrical
-                        Infrastructure</a>
-                      <a href="/innvendt/assetvision.html#feature_2">One-stop Dashboard for IoT based Sensor-based
-                        Monitoring of all Electrical Assets</a>
-                      <a href="/innvendt/assetvision.html#feature_3">Digital Layout Map for the Plant's entire
-                        Electrical Infra</a>
-                    </div>
-                  </div>
-                  <div class="set">
-                    <span>
-                      Earth E5
-                      <i class="fa fa-angle-down"></i>
-                    </span>
-                    <div class="content">
-                      <a href="/innvendt/earthe5.html#feature_1">IoT-based Sensor for Earthing System Monitoring</a>
-                      <a href="/innvendt/earthe5.html#feature_2">Leakage Voltage Monitoring</a>
-                      <a href="/innvendt/earthe5.html#feature_3">Earth Pit Resistance Monitoring via DeltaR
-                        Algorithm</a>
-                    </div>
-                  </div>
-                  <div class="set">
-                    <span>
-                      Smart LOTO
-                      <i class="fa fa-angle-down"></i>
-                    </span>
-                    <div class="content">
-                      <a href="/innvendt/smartloto.html#feature_1">Smart Padlocks with Unique Identifiers</a>
-                      <a href="/innvendt/smartloto.html#feature_2">Smart Lockout and Tagout Technology</a>
-                      <a href="/innvendt/smartloto.html#feature_3">Cloud-Based Workflow Software</a>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <a class="nav-link" href="#features"><span>Features</span></a>
-              </li>
-              <li>
-                <a class="nav-link" href="#customers"><span>Customers</span></a>
-              </li>
-              <li>
-                <a class="nav-link" href="#news"><span>News </span></a>
-              </li>
-              <li>
-                <a class="nav-link" href="#about"><span>About</span></a>
-              </li>
-              <!-- <li>
-                <a class="nav-link" href="#partners"><span>Partners</span></a>
-              </li> -->
-              <li class="nav-item">
-                <a class="login-in" href="#"><span>LOGIN </span></a>
-              </li>
-            </ul>
-
-            <!-- nav-toggler for mobile version only -->
-            <button class="nav-toggler">
-              <span></span>
-            </button>
-          </nav>
         </div>
-      </div>
-      <!-- navbar-area end -->
-    </header>
-  </div>
+        <!-- navbar-area end -->
+      </header>
+    </div>
     <!-- banner start -->
 
 
@@ -307,7 +306,7 @@
           <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-12 align-items-center d-flex wow fadeInUp" data-wow-delay="0.2s"
               id="feature_2">
-              <h4>One-stop Dashboard for IoT sensor-based of all Electrical Assets</h4>
+              <h4 class="feature1">One-stop Dashboard for IoT sensor-based of all Electrical Assets</h4>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-12 d-flex wow fadeInUp" data-wow-delay="0.2s">
               <img src="images/asset/key_2.png" alt="">
@@ -357,7 +356,7 @@
                 <img src="images/asset/summary_s_2.png" class="d-block w-100" alt="...">
                 <div class="card-body d-flex justify-content-center">
                     <div class="text-center">
-                        <h5 class="card-title">Work order management</h5>
+                        <h5 class="card-title">Work Order Management</h5>
                         <p>Automate work order creation, tracking, and completion to ensure that
                             tasks are performed efficiently and effectively.</p>
                     </div>
@@ -369,7 +368,7 @@
                 <img src="images/asset/summary_s_3.png" class="d-block w-100" alt="...">
                 <div class="card-body d-flex justify-content-center">
                     <div class="text-center">
-                        <h5 class="card-title">Inspection and auditing</h5>
+                        <h5 class="card-title">Inspection and Auditing</h5>
                         <p>Conduct inspections and audits more efficiently and effectively, with the
                             ability to collect and analyze data from multiple sources in real-time.
                         </p>
@@ -382,7 +381,7 @@
                 <img src="images/asset/summary_s_4.png" class="d-block w-100" alt="...">
                 <div class="card-body d-flex justify-content-center">
                     <div class="text-center">
-                        <h5 class="card-title">GIS mapping</h5>
+                        <h5 class="card-title">GIS Mapping</h5>
                         <p>Visualize your assets and infrastructure in real-time with GIS mapping,
                             including satellite imagery and real-time data feeds. </p>
                     </div>
@@ -394,7 +393,7 @@
                 <img src="images/asset/summary_s_5.png" class="d-block w-100" alt="...">
                 <div class="card-body d-flex justify-content-center">
                     <div class="text-center">
-                        <h5 class="card-title">Compliance tracking</h5>
+                        <h5 class="card-title">Compliance Tracking</h5>
                         <p>Ensure compliance with regulatory requirements by tracking and reporting
                             on key compliance metrics, such as safety checks, training records, and
                             audits.</p>
@@ -470,14 +469,12 @@
             <div class="col-lg-6 col-md-6 col-sm-12 col-12 align-items-center d-flex wow fadeInUp"
               data-wow-delay="0.2s">
               <div class="benifits">
-                <h5>Benefits</h5>
-                <ol class="pt-1">
-                  <li>Improved Asset Management</li>
-                  <li> Enhanced Safety and Compliance</li>
-                  <li> Increased Operational Efficiency</li>
+                <h5>Benefits</h5><br><br>
+                  <li>Improved asset management</li>
+                  <li> Enhanced safety and compliance</li>
+                  <li> Increased operational efficiency</li>
                   <li> Improved asset utilization and maintenance</li>
-                  <li> Predictive Maintenance for Proactive Management</li>
-                </ol>
+                  <li> Predictive maintenance for proactive management</li>
               </div>
             </div>
           </div>

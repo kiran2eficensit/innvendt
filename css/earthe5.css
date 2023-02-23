@@ -72,13 +72,14 @@
     margin-bottom: 0;
 }
 .asset .earth {
-    background: #f4f8ff;
+    background: #FFFFFF;
     padding: 80px 0;
 }
 
 .asset .innvent-hed {
     font-size: 20px;
     line-height: 30px;
+    font-family: 'Albert Sans';
     color: var(--primary);
     font-weight: 500;
     text-align: center;
@@ -96,6 +97,10 @@ font-size: 24px;
 line-height: 40px;
 color: #000000;
 
+}
+
+#row-mon1 {
+    padding-left: 250px;
 }
 
 .asset .earth p {
@@ -130,8 +135,11 @@ color: #000000;
 .benifits h5{
     color: var(--primary);
     padding-bottom: 40px;
+    font-size: 24px;
+    font-family: 'Albert Sans';
+    padding-left: 23px;
 }
-.benifits ol{
+.benifits li{
     padding-left: 23px;
 }
 .benifits li{
@@ -369,7 +377,7 @@ line-height: 45px;
     border: 1px solid var(--white);
 }
 .b{
-    height: 372px;
+    height: 25px;
     padding: 30px;
     background: url(../images/asset/right_quote.svg) no-repeat;
     background-position: 98% 7%;
