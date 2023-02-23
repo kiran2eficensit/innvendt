@@ -1,7 +1,7 @@
 /* banner start */
 .asset .home-banner {
     background: url(../images/smartloto/banner_bg.png) no-repeat;
-    background-size: cover;
+    background-size: 100%;
     padding: 150px 0 250px;
 }
 
