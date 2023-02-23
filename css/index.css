@@ -242,7 +242,7 @@
   
   .owl-carousel .owl-nav button.owl-prev,
   .owl-carousel .owl-nav button.owl-next {
-   
+    background: var(--primary);
     color: var(--white);
     font-size: 20px;
     width: 40px;
