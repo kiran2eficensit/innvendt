@@ -10,6 +10,19 @@
     line-height: 57px;
     padding: 0 0 30px 0;
   }
+  .h-banner-right img {
+    position: absolute;
+    right: 0;
+  }
+  .next-c {
+    right: 35%;
+  }
+  .prev-c {
+    left: 36%;
+  }
+  .img_class {
+    margin-left: 0;
+  }
 }
 @media only screen and (max-width: 991px) {
   /* navbar start */
@@ -122,6 +135,45 @@
   .tab-responsive {
     display: block;
   }
+  .about,
+  .services,
+  .asset .earth {
+    padding: 50px 0;
+  }
+  .h-banner-right img {
+    position: static;
+  }
+  .asset .home-banner {
+    padding: 0 0 80px;
+  }
+  .key_features .row {
+    margin-bottom: 50px;
+  }
+  .next-c {
+    right: 32%;
+  }
+  .prev-c {
+    left: 32%;
+  }
+  .img_class {
+    margin-left: 15px;
+  }
+  .asset .h-banner-left h1 {
+    font-size: 46px;
+    line-height: 56px;
+  }
+  .earth-main {
+    padding: 50px 0 50px !important;
+  }
+  .asset .h-banner-left h1 {
+    padding-top: 30px;
+  }
+  #row-mon1 {
+    padding-left: 0;
+  }
+  .asset .home-banner {
+    background-size: cover;
+  }
 }
 @media only screen and (max-width: 767px) {
   /* navbar start */
@@ -152,6 +204,24 @@
     border-bottom: none;
   }
   /* navbar end */
+  .next-c {
+    right: 28%;
+  }
+  .prev-c {
+    left: 28%;
+  }
+  .img_class {
+    margin-left: 0;
+    padding: 0 10px;
+  }
+  .earth h4 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .asset .h-banner-left h1 {
+    font-size: 36px;
+    line-height: 46px;
+  }
 }
 @media only screen and (max-width: 599px) {
   .partners ul {
@@ -174,6 +244,72 @@
     padding-left: 0;
     padding-right: 0;
   }
+  .next-c {
+    right: 25%;
+  }
+  .prev-c {
+    left: 25%;
+  }
+  .earth h4 {
+    padding: 15px 0;
+  }
+  .benifits h5 {
+    padding-left: 0;
+    padding-top: 30px;
+    font-size: 20px;
+    padding-bottom: 15px;
+  }
+  .benifits li {
+    font-size: 16px;
+    line-height: 32px;
+    padding-left: 0;
+  }
+  .asset .innvent-hed {
+    padding-top: 10px;
+  }
+  .asset .h-banner-left p {
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+  .news .card {
+    min-height: auto;
+  }
 }
 @media only screen and (max-width: 479px) {
+  .h-banner-left a {
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+  .h-banner-left a.get-start {
+    width: 100%;
+    margin: 10px 0 0;
+  }
+  .home-banner {
+    padding: 50px 0 76px;
+  }
+  .next-c {
+    right: 13%;
+  }
+  .prev-c {
+    left: 13%;
+  }
+  .asset .h-banner-left a.get-start {
+    margin-left: 0;
+  }
+  .about-card {
+    height: 390px;
+  }
+  .slick-dots {
+    bottom: -25px !important;
+  }
+  .left-arrow1,
+  .right-arrow1 {
+    position: relative;
+    top: -27px;
+  }
+  .about-card h3 {
+    font-size: 18px;
+    line-height: 28px;
+  }
 }
